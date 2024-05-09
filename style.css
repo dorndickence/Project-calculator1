@@ -1,0 +1,233 @@
+body{
+font-family:helvetica;
+font-weight:bold;
+background-color:indigo;
+
+}
+
+h1 {
+    color: red;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(40, end) infinite alternate, blink-caret 1.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+.mypage-body{
+width:350px;
+height:400px;
+box-sizing:border-box;
+
+
+}
+
+
+button { 
+width:80px;
+height:80px;
+font-size:35px;
+color:white;
+border:1px solid black;
+background-color: grey;
+margin:0;
+padding-bottom:0;
+
+}
+
+
+
+.inputClass {
+width:320px;
+height:60px;
+border-radius:1px;
+background-color:black;
+font-size:28px;
+color:white;
+font-weight:bold;
+display:flex;
+flex-direction:right;
+justify-content:right
+
+
+}
+
+
+.calc-button-right {
+background-color:orange;
+}
+
+.calc-button-triple {
+width:160px;
+
+
+}
+
+.calc-button-last {
+width:240px;
+
+}
+
+.calc-button-row {
+display:flex;
+flex-direction:row;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*body{
+font-family:helvetica;
+font-weight:bold;
+
+
+}
+
+h1 {
+    color: red;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(40, end) infinite alternate, blink-caret 1.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: black;
+    }
+}
+
+
+
+
+
+.mypage-body {
+width:350px;
+height:400px;
+background-color:white;
+display:grid;
+box-sizing:border-box;
+grid-template-columns: repeat(3,1fr) auto;
+grid-template-areas:
+"mytable mytable mytable mypage-sidebar";
+
+}
+
+.mytable {
+grid-area:mytable;
+jusify-content:space-between;
+display:flex;
+flex-wrap:wrap;
+justify-content:right;
+
+}
+
+.mypage-sidebar{
+display:flex;
+grid-area:mypage-sidebar;
+
+
+}
+
+.calculator {
+display:grid;
+grid-template-columns: repeat(2,auto);
+
+}
+
+
+
+.calculator2 {
+display:grid;
+grid-template-columns: repeat(1,auto);
+margin:0;
+}
+
+.calculator2 button {
+background-color:orange;
+
+}
+
+button { 
+width:80px;
+height:80px;
+font-size:35px;
+color:white;
+border:1px solid black;
+background-color:grey;
+margin:0;
+padding-bottom:0;
+
+}
+
+.clear{
+width:160px;
+
+}
+
+.delete{
+width:80px;
+
+
+}
+
+.item12{
+
+width:240px;
+height:80px;
+
+
+
+}
+.item5,.item8,.item11{
+width:110px;
+
+
+.inputClass {
+width:285px;
+height:70px;
+border-radius:1px;
+background-color:black;
+font-size:34px;
+color:white;
+font-weight:bold;
+padding-top:0;
+margin-left:30px;
+
+}
+*/
